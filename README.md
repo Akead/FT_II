@@ -1,1 +1,1 @@
-# FT_II
+Fizyka techniczna II - I semestr
