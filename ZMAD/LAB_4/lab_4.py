@@ -59,7 +59,7 @@ def zadanie_1():
     # print(four_long_fit)
     # Si = FourierSeriesFitLong(year, * four_long_fit)
 
-    four_fit = fit_fourier(year, data, FourierSeriesFitShort)
+    four_fit = fit_fourier(year, data-Ti, FourierSeriesFitShort)
     Si = FourierSeriesFitShort(year, * four_fit)
 
     fig, ax = plt.subplots()
@@ -154,5 +154,5 @@ def zadanie_2():
     fig.savefig('lipior_4_2_2Y.png', dpi=200)
 
 if __name__ == "__main__":
-    #zadanie_1()
-    zadanie_2()
+    zadanie_1()
+    #zadanie_2()
